@@ -1,7 +1,6 @@
 # Workshop: automação de testes com Python (calculadora bugada)
 
-Material para 1–2 horas com alunos que sabem Python básico: caça manual a bugs, leitura do código e testes com **pytest**.
-
+Material para 1–2 horas 
 ## Arranque rápido
 
 ```bash
