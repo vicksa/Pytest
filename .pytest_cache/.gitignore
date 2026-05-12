@@ -1,0 +1,24 @@
+# === ARQUIVOS DE TESTE (BLOQUEIO PARA ALUNOS) ===
+# Ignora arquivos criados pelos alunos durante o workshop
+test_*.py
+*_test.py
+tests/
+test/
+
+# === CACHES E METADADOS DO PYTEST ===
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+
+# === AMBIENTE E PYTHON ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# === SISTEMA E IDE ===
+.vscode/
+.idea/
+.DS_Store
