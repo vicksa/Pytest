@@ -1,7 +1,6 @@
 # Workshop: automação de testes com Python (calculadora bugada)
 
-Material para 1–2 horas com alunos que sabem Python básico: caça manual a bugs, leitura do código e testes com **pytest**.
-
+Material para 1–2 horas 
 ## Arranque rápido
 
 ```bash
@@ -56,11 +55,4 @@ Os testes comparam o código com a **docstring** do módulo. Com a calculadora �
 
 ## `ModuleNotFoundError: No module named 'calculadora_bugada'`
 
-- Corre `pytest` **na raiz** do projeto (a pasta onde está `calculadora_bugada.py`, não dentro de `tests/`).
-- O repositório inclui `[pyproject.toml](pyproject.toml)` e `[tests/conftest.py](tests/conftest.py)` para a raiz entrar no caminho de importação. Atualiza o repositório ou cria estes ficheiros; depois: `pytest -v` outra vez.
-
-Sem argumentos, o programa mostra a ajuda.
-
-## Para o instrutor
-
-Gabarito dos bugs: `[materiais/BUGS_INSTRUTOR.md](materiais/BUGS_INSTRUTOR.md)` (não partilhar com a turma antes da atividade).
+- Corre `pytest` **na raiz** do projeto (a pasta onde está `calculadora_bugada.py`,
